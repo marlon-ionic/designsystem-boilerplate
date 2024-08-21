@@ -130,3 +130,9 @@ dist
 .pnp.*
 
 .DS_Store
+packages/core/hydrate
+packages/core/components
+
+.DS_Store
+packages/core/hydrate
+packages/core/components
