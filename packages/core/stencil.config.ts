@@ -23,6 +23,11 @@ export const config: Config = {
       directivesProxyFile: '../angular-workspace/projects/angular/src/lib/standalone/components.ts',
       directivesArrayFile: '../angular-workspace/projects/angular/src/lib/standalone/index.ts',
     }),
+    angularOutputTarget({
+      componentCorePackage: '@placid/core',
+      outputType: 'standalone',
+      directivesProxyFile: '../angular/src/lib/components.ts'
+    }),
     reactOutputTarget({
       outDir: '../react/src',
       hydrateModule: '@placid/core/hydrate',

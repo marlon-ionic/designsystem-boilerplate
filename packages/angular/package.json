@@ -1,0 +1,42 @@
+{
+  "name": "@placid/angular",
+  "version": "0.0.1",
+  "description": "Angular Component Library for @placid/core web components",
+  "author": "Outsystems",
+  "homepage": "https://github.com/stencil-community/designsystem-boilerplate",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stencil-community/designsystem-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stencil-community/designsystem-boilerplate/issues"
+  },
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@angular/common": ">=14.3.0",
+    "@angular/core": ">=14.3.0",
+    "rxjs": ">=7.5.0"
+  },
+  "keywords": [
+    "angular",
+    "component library",
+    "stencil"
+  ],
+  "devDependencies": {
+    "ng-packagr": "^16.2.3",
+    "typescript": "~5.5.0",
+    "tslib": "^2.3.0"
+  },
+  "dependencies": {
+    "@placid/core": "workspace:^"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

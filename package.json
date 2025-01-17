@@ -8,16 +8,16 @@
   "scripts": {
     "build": "run-s build:*",
     "build:core": "pnpm --filter @placid/core run build",
-    "build:frameworks": "pnpm --filter @placid/vue --filter @placid/react --filter angular-workspace run build",
-    "build:frameworks:vue": "pnpm --filter @placid/vue run build",
+    "build:frameworks": "pnpm --filter @placid/angular --filter @placid/react --filter @placid/vue run build",
+    "build:frameworks:angular": "pnpm --filter @placid/angular run build",
     "build:frameworks:react": "pnpm --filter @placid/react run build",
-    "build:frameworks:angular": "pnpm --filter angular-workspace run build",
+    "build:frameworks:vue": "pnpm --filter @placid/vue run build",
+    "start:angular": "pnpm --filter @apps/angular run start",
     "start:core": "pnpm --filter @placid/core run start",
-    "start:react": "pnpm --filter @apps/react run start",
-    "start:vue": "pnpm --filter @apps/vue run start",
     "start:next": "pnpm --filter @apps/next run start",
+    "start:react": "pnpm --filter @apps/react run start",
     "start:nuxt": "pnpm --filter @apps/nuxt run start",
-    "start:angular": "pnpm --filter @apps/angular run start"
+    "start:vue": "pnpm --filter @apps/vue run start"
   },
   "repository": {
     "type": "git",
