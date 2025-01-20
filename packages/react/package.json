@@ -14,7 +14,8 @@
     "url": "https://github.com/ionic-team/stencil-component-starter.git"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "publish": "pnpm build && pnpm publish"
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
