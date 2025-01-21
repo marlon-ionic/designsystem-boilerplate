@@ -16,9 +16,6 @@
     "build": "ng-packagr -p ng-package.json",
     "publish": "pnpm build && pnpm publish dist"
   },
-  "files": [
-    "dist"
-  ],
   "peerDependencies": {
     "@angular/common": ">=16.2.0",
     "@angular/core": ">=16.2.0",
