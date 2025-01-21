@@ -20,12 +20,6 @@ export const config: Config = {
     angularOutputTarget({
       componentCorePackage: '@placid/core',
       outputType: 'standalone',
-      directivesProxyFile: '../angular-workspace/projects/angular/src/lib/standalone/components.ts',
-      directivesArrayFile: '../angular-workspace/projects/angular/src/lib/standalone/index.ts',
-    }),
-    angularOutputTarget({
-      componentCorePackage: '@placid/core',
-      outputType: 'standalone',
       directivesProxyFile: '../angular/src/lib/components.ts'
     }),
     reactOutputTarget({
