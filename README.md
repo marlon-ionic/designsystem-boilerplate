@@ -1,4 +1,5 @@
-Designsystem Boilerplate
+# Designsystem Boilerplate
+
 ========================
 
 A boilerplate project that showcases the usage of Stencil for building large scale design systems. It currently showcases integration of the following frameworks:
@@ -38,7 +39,7 @@ The project is structured in several sub-packages, some are framework wrappers t
 - `/packages/core`: your Stencil project that contains raw Stencil components, published as `@placid/core`
 - `/packages/react`: Stencil wrapper for React based projects, e.g. Next.js or React, published as `@placid/react`
 - `/packages/vue`: Stencil wrapper for Vue based projects, published as `@placid/vue`
-- `/packages/angular-workspace/projects/angular`: Stencil wrapper for Angular components, published as `@placid/angular`
+- `/packages/angular`: Stencil wrapper for Angular components, published as `@placid/angular`
 
 You can see how your users can embed the components in our demo apps:
 
@@ -57,7 +58,7 @@ The following scripts are configured for you to operate this codebase:
 To build all packages, run:
 
 ```sh
-$ pnpm run build
+pnpm run build
 ```
 
 ### Run Example App
