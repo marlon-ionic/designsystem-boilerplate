@@ -53,6 +53,10 @@ div {
   filter: drop-shadow(0 0 2em #583DFF);
 }
 
+my-component.alternate {
+  --my-theme-color: rgb(139, 6, 6);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

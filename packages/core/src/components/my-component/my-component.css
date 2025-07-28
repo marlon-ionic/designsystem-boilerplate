@@ -1,6 +1,6 @@
 :host {
   border-radius: 0.375rem;
-  background-color: #153078;
+  background-color:  var(--my-theme-color, #153078);
   font-family: sans-serif;
   color: #fff;
   overflow: hidden;
@@ -16,12 +16,13 @@
   justify-content: center;
   align-items: center;
   min-height: 1.25rem;
+  padding: 0 0.5rem;
 }
 
 .name-container {
   align-items: center;
   background-color: #fff;
-  color: #000;
+  color: var(--my-theme-color, #153078);
   display: flex;
   flex-flow: row nowrap;
   flex: 1 0 auto;

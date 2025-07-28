@@ -2,7 +2,17 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100%;
   gap: 1rem;
   padding: 1rem;
+}
+
+
+my-component.alternate {
+  --my-theme-color: rgb(139, 6, 6);
+}
+
+my-counter.alternate {
+  --my-theme-color: rgb(139, 6, 6);
 }

@@ -1,0 +1,13 @@
+:host {
+  --my-theme-color: rgb(85, 15, 166);
+  --my-theme-color-fg: #fff;
+}
+
+:host(my-component) {
+  --my-theme-color: rgb(21, 118, 8);
+}
+
+:host(my-counter) {
+--button-padding: 10px 20px;
+--my-theme-color: rgb(85, 15, 166);
+}

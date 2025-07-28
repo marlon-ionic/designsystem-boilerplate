@@ -9,7 +9,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #153078;
+  background-color: var(--my-theme-color, #153078);
   cursor: pointer;
   transition: border-color 0.25s;
   color: #ffffff;

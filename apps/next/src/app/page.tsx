@@ -15,8 +15,9 @@ export default function Home() {
           </a>
         </header>
         <MyComponent first="Stencil" last="'Don't call me a framework' JS"></MyComponent>
+        <MyComponent className='alternate' first="Red" last="One"></MyComponent>
         <div>
-          <MyCounter startCount={42}></MyCounter>
+          <MyCounter></MyCounter>
         </div>
         <p>Click on the StencilJS logo to learn more</p>
       </div>
